@@ -15,8 +15,8 @@ export default function Home() {
                 }}
                 className="scroll-smooth overflow-auto max-h-full"
             >
-                <main className="overflow-hidden min-h-screen" id="about">
-                    <div className=" py-40 max-w-7xl mx-auto ">
+                <main className="overflow-hidden min-h-screen px-8" id="about">
+                    <div className=" py-10 md:py-40 max-w-7xl mx-auto ">
                         <div className="w-full rounded-md flex items-center justify-center  relative">
                             <Spotlight
                                 className="-top-40 left-0 md:left-1/4 md:-top-80"
@@ -57,7 +57,7 @@ export default function Home() {
                     </div>
                 </main>
                 <div
-                    className="max-w-7xl mx-auto min-h-[calc(100vh-48px)] "
+                    className="max-w-7xl mx-auto min-h-[calc(100vh-48px)] px-8 "
                     id="projects"
                 >
                     <div className=" pb-8">
@@ -73,7 +73,7 @@ export default function Home() {
                 </div>
 
                 <div
-                    className="max-w-7xl mx-auto min-h-[calc(100vh-48px)]"
+                    className="max-w-7xl mx-auto min-h-[calc(100vh-48px)] px-8"
                     id="contact"
                 >
                     <div className="pb-8">

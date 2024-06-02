@@ -35,7 +35,7 @@ const projects = [
 
 export function Projects() {
     return (
-        <div className="grid grid-cols-2 gap-8">
+        <div className="grid sm:grid-cols-2 grid-cols-1 gap-8">
             {projects.map((project, i) => (
                 <Link
                     target="_blank"

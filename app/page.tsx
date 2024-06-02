@@ -19,10 +19,10 @@ export default function Home() {
                     <div className=" py-40 max-w-7xl mx-auto ">
                         <div className="w-full rounded-md flex items-center justify-center  relative">
                             <Spotlight
-                                className="-top-40 left-0 md:left-1/4 md:-top-72"
+                                className="-top-40 left-0 md:left-1/4 md:-top-80"
                                 fill="white"
                             />
-                            <div className=" p-4 max-w-7xl  mx-auto relative  w-full ">
+                            <div className="max-w-7xl  mx-auto relative  w-full ">
                                 <h1 className="text-6xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
                                     GamingBox
                                 </h1>

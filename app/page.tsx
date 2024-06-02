@@ -55,6 +55,7 @@ export default function Home() {
                             <Skills></Skills>
                         </div>
                     </div>
+                    <div className="h-8"></div>
                 </main>
                 <div
                     className="max-w-7xl mx-auto min-h-[calc(100vh-48px)] px-8 "
@@ -70,6 +71,7 @@ export default function Home() {
                     </div>
 
                     <Projects></Projects>
+                    <div className="h-8"></div>
                 </div>
 
                 <div
